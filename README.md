@@ -1,1 +1,0 @@
-# mockexam_senior_highschool
