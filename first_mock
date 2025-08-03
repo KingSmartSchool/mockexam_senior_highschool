@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>學測英文模擬題第一回</title>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.page {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    font-family: "標楷體", DFKai-SB, "Times New Roman", Times, serif;
+    color: #000;
+    background: #fff;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.title-main {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.subject {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.important {
+    width: 93%;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+    text-align: center;
+    background: #ebebeb;
+    border: 1px solid #000;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 4px 0;
+}
+.notice-box {
+    width: 84%;
+    margin: 0 auto 0 auto;
+    border: 2px solid #000;
+    padding: 20px 36px 20px 36px;
+    font-size: 18px;
+    background: #fff;
+    box-sizing: border-box;
+}
+.notice-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+.notice-list {
+    margin: 0 0 0 25px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 2.1;
+}
+.notice-list li {
+    margin-bottom: 4px;
+    letter-spacing: 1.2px;
+}
+.notice-formula {
+    display: block;
+    margin: 10px auto 0 36px;
+    width: 90%;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+@media print {
+    .page { page-break-after: always; }
+}
+.pagenum {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.subinfo {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    line-height: 1.2;
+}
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 16px 0 8px 0;
+    letter-spacing: 1.6px;
+}
+.q-title {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0 6px 0;
+}
+.q-desc {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    letter-spacing: 1.2px;
+}
+.q-list {
+    margin-left: 26px;
+    margin-bottom: 12px;
+    font-size: 17px;
+    line-height: 1.9;
+}
+.q-list li {
+    margin-bottom: 8px;
+}
+hr {
+    border: none;
+    border-top: 1.2px solid #000;
+    margin: 3px 0 15px 0;
+    width: 98%;
+}
+.content-area {
+    padding: 20px 32px;
+    box-sizing: border-box;
+}
+.passage {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 12px 0;
+    padding: 0 8px;
+    font-style: italic;
+}
+.forum-post {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 12px;
+}
+.writing-section {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 1.8;
+}
+.kuse-branding {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 1000;
+}
+.kuse-branding:hover {
+    color: #333;
+}
+.kuse-branding svg {
+    height: 1em;
+}
+</style>
+</head>
+<body>
+<!-- Cover Page -->
+<div class="page">
+  <div class="header">
+    財團法人<br>大學入學考試中心基金會
+  </div>
+  <div class="title-main">
+    學測英文模擬題第一回
+  </div>
+  <div class="subject">
+    英文考科
+  </div>
+  <div class="important">
+    請於考試開始鈴響起，在答題卷簽名欄位以正楷簽全名
+  </div>
+  <div class="notice-box">
+    <div class="notice-title">－作答注意事項－</div>
+    <ul class="notice-list">
+      <li>考試時間：100分鐘</li>
+      <li>作答方式：</li>
+      <li>．選擇題用 2B 鉛筆在「答題卷」上作答；更正時以橡皮擦擦拭，切勿使用修正帶（液）。</li>
+      <li>．除題目另有規定外，非選擇題用筆尖較粗之黑色墨水的筆在「答題卷」上作答；更正時，可以使用修正帶（液）。</li>
+      <li>．考生須依上述規定劃記或作答，若未依規定而導致答案難以辨識或評閱時，恐將影響成績。</li>
+      <li>．答題卷每人一張，不得要求增補。</li>
+    </ul>
+    <div class="notice-title" style="margin-top:18px;">選擇題計分方式：</div>
+    <ul class="notice-list">
+      <li>．單選題：每題有1個選項，其中只有一個是正確或最適當的選項。<br>
+        各題答對者，得該題的分數；答錯、未作答或劃記多於一個選項者，該題以零分計算。
+      </li>
+      <li>．多選題：每題有1個選項，其中至少有一個是正確的選項。各題之選項獨立判定，所有選項均答對者，得該題全部的分數；答錯k個選項者，得該題 <span style="font-family:Times;font-size:18px;">n-2k/n</span> 的分數；但得分低於零分或所有選項均未作答者，該題以零分計算。</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Page 1 -->
+<div class="page">
+  <div class="pagenum">第 1 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="important" style="margin-top:4px;margin-bottom:18px;">
+      請記得在答題卷簽名欄位以正楷簽全名
+    </div>
+    <div class="section-title">第壹部分、選擇題（占62分）</div>
+    <div class="q-title">一、詞彙題（占10分）</div>
+    <div class="q-desc">
+      說明：第1題至第10題為單選題，每題1分。
+    </div>
+    <ol class="q-list" start="1">
+      <li>When you walk on the sandy beach, your footprints will ______ after the waves wash over them.<br>
+        (A) vanish &nbsp; (B) expand &nbsp; (C) rotate &nbsp; (D) deposit</li>
+      <li>The city government plans to promote ______ transportation to reduce air pollution.<br>
+        (A) electric &nbsp; (B) personal &nbsp; (C) digital &nbsp; (D) ancient</li>
+      <li>Many workers are ______ about the upcoming changes in the company's policies.<br>
+        (A) delighted &nbsp; (B) anxious &nbsp; (C) skillful &nbsp; (D) grateful</li>
+      <li>This museum is ______ for its collection of ancient artifacts and rare paintings.<br>
+        (A) famous &nbsp; (B) instant &nbsp; (C) random &nbsp; (D) private</li>
+      <li>The new employee quickly ______ herself with her colleagues by being friendly and helpful.<br>
+        (A) measured &nbsp; (B) associated &nbsp; (C) impressed &nbsp; (D) integrated</li>
+      <li>The team leader gave ______ instructions before the competition began.<br>
+        (A) vague &nbsp; (B) precise &nbsp; (C) patient &nbsp; (D) remote</li>
+      <li>Tourists are ______ to follow the rules when visiting the historic monument.<br>
+        (A) required &nbsp; (B) prevented &nbsp; (C) ignored &nbsp; (D) confused</li>
+      <li>After the repair, the machine now operates more ______ than before.<br>
+        (A) secretly &nbsp; (B) efficiently &nbsp; (C) severely &nbsp; (D) rarely</li>
+      <li>The little boy was ______ by the magician's amazing tricks.<br>
+        (A) inspired &nbsp; (B) educated &nbsp; (C) fascinated &nbsp; (D) replaced</li>
+      <li>During the storm, the power ______ in several neighborhoods for hours.<br>
+        (A) remained &nbsp; (B) supplied &nbsp; (C) exploded &nbsp; (D) failed</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Page 2 -->
+<div class="page">
+  <div class="pagenum">第 2 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="q-title">二、綜合測驗（占10分）</div>
+    <div class="q-desc">
+      說明：第11題至第20題為單選題，每題1分。
+    </div>
+    <div class="q-desc" style="font-size:17px;color:#222;margin-bottom:7px;">
+      第11至15題為題組
+    </div>
+    <div class="passage">
+      In a small town in Italy, there is a tradition called "La Festa della Primavera." Every year, people gather in the main square to welcome the arrival of spring. The celebration begins with a parade, during which children throw flower petals into the air, creating a colorful scene. Later, everyone enjoys traditional food and music together. The festival is so lively that it ______ 11 ______ both locals and tourists.
+    </div>
+    <ol class="q-list" start="11">
+      <li>(A) attracts &nbsp; (B) ignores &nbsp; (C) examines &nbsp; (D) repairs</li>
+    </ol>
+    <div class="passage">
+      The origins of this festival date back several centuries. According to local legend, villagers once held the event to ______ 12 ______ the end of a harsh winter. Over time, the tradition has become an important part of the community. Today, families ______ 13 ______ to prepare costumes and practice songs for the big day.
+    </div>
+    <ol class="q-list" start="12">
+      <li>(A) celebrate &nbsp; (B) postpone &nbsp; (C) disturb &nbsp; (D) prevent</li>
+      <li>(A) refuse &nbsp; (B) gather &nbsp; (C) abandon &nbsp; (D) hesitate</li>
+    </ol>
+    <div class="passage">
+      This joyful occasion ______ 14 ______ the spirit of unity among the townspeople. Many visitors say it's an experience they will never forget, as the festival ______ 15 ______ lasting memories for all who attend.
+    </div>
+    <ol class="q-list" start="14">
+      <li>(A) destroys &nbsp; (B) strengthens &nbsp; (C) confuses &nbsp; (D) limits</li>
+      <li>(A) forgets &nbsp; (B) creates &nbsp; (C) misses &nbsp; (D) doubts</li>
+    </ol>
+    <div class="q-desc" style="font-size:17px;color:#222;margin:20px 0 7px 0;">
+      第16至20題為題組
+    </div>
+    <div class="passage">
+      Sarah had always dreamed of becoming a chef. She spent many hours in the kitchen, trying out new recipes and learning different cooking techniques. However, her first attempt at baking a cake was a disaster. The mixture ______ 16 ______ in the oven, and the cake came out flat and tasteless.
+    </div>
+    <ol class="q-list" start="16">
+      <li>(A) succeeded &nbsp; (B) failed &nbsp; (C) melted &nbsp; (D) floated</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Page 3 -->
+<div class="page">
+  <div class="pagenum">第 3 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="passage">
+      Instead of giving up, Sarah decided to ______ 17 ______ her mistakes. She watched online tutorials and asked her grandmother for advice. After weeks of practice, she ______ 18 ______ made a delicious chocolate cake.
+    </div>
+    <ol class="q-list" start="17">
+      <li>(A) ignore &nbsp; (B) repeat &nbsp; (C) learn from &nbsp; (D) depend on</li>
+      <li>(A) rarely &nbsp; (B) eventually &nbsp; (C) anxiously &nbsp; (D) slowly</li>
+    </ol>
+    <div class="passage">
+      Her family was proud of her determination. Sarah realized that success often comes after many ______ 19 ______. She now encourages others to pursue their passions, even if they ______ 20 ______ at first.
+    </div>
+    <ol class="q-list" start="19">
+      <li>(A) victories &nbsp; (B) achievements &nbsp; (C) failures &nbsp; (D) promises</li>
+      <li>(A) succeed &nbsp; (B) struggle &nbsp; (C) relax &nbsp; (D) escape</li>
+    </ol>
+
+    <div class="q-title" style="margin-top:25px;">三、文意選填（占10分）</div>
+    <div class="q-desc">
+      說明：第21題至第30題為單選題，每題1分。
+    </div>
+    <div class="q-desc" style="font-size:17px;color:#222;margin-bottom:7px;">
+      第21至30題為題組
+    </div>
+    <div class="passage">
+      The Amazon Rainforest is one of the most important ecosystems on Earth. It is ______ 21 ______ for its incredible biodiversity, home to thousands of plant and animal species.
+    </div>
+    <ol class="q-list" start="21">
+      <li>(A) known &nbsp; (B) afraid &nbsp; (C) necessary &nbsp; (D) satisfied</li>
+    </ol>
+    <div class="passage">
+      The forest also plays a key role in regulating the global ______ 22 ______ by absorbing large amounts of carbon dioxide.
+    </div>
+    <ol class="q-list" start="22">
+      <li>(A) disease &nbsp; (B) climate &nbsp; (C) hunger &nbsp; (D) silence</li>
+    </ol>
+    <div class="passage">
+      Many scientists have ______ 23 ______ the Amazon as the "lungs of the planet" because of its ability to produce oxygen.
+    </div>
+    <ol class="q-list" start="23">
+      <li>(A) ignored &nbsp; (B) described &nbsp; (C) rejected &nbsp; (D) compared</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Page 4 -->
+<div class="page">
+  <div class="pagenum">第 4 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="passage">
+      Unfortunately, the rainforest is ______ 24 ______ by deforestation and illegal logging.
+    </div>
+    <ol class="q-list" start="24">
+      <li>(A) protected &nbsp; (B) threatened &nbsp; (C) respected &nbsp; (D) celebrated</li>
+    </ol>
+    <div class="passage">
+      If this trend continues, many unique species may become ______ 25 ______.
+    </div>
+    <ol class="q-list" start="25">
+      <li>(A) extinct &nbsp; (B) available &nbsp; (C) common &nbsp; (D) crowded</li>
+    </ol>
+    <div class="passage">
+      Local communities are working to ______ 26 ______ the forest and promote sustainable development.
+    </div>
+    <ol class="q-list" start="26">
+      <li>(A) destroy &nbsp; (B) preserve &nbsp; (C) waste &nbsp; (D) challenge</li>
+    </ol>
+    <div class="passage">
+      International organizations are also ______ 27 ______ in protecting this vital region.
+    </div>
+    <ol class="q-list" start="27">
+      <li>(A) involved &nbsp; (B) bored &nbsp; (C) absent &nbsp; (D) distant</li>
+    </ol>
+    <div class="passage">
+      Some projects aim to ______ 28 ______ the lives of local people by providing education and healthcare.
+    </div>
+    <ol class="q-list" start="28">
+      <li>(A) damage &nbsp; (B) improve &nbsp; (C) ignore &nbsp; (D) decrease</li>
+    </ol>
+    <div class="passage">
+      With continued ______ 29 ______, it is hoped that the Amazon will survive for future generations.
+    </div>
+    <ol class="q-list" start="29">
+      <li>(A) neglect &nbsp; (B) effort &nbsp; (C) delay &nbsp; (D) memory</li>
+    </ol>
+    <div class="passage">
+      The fate of the rainforest ______ 30 ______ in the hands of people around the world.
+    </div>
+    <ol class="q-list" start="30">
+      <li>(A) lies &nbsp; (B) moves &nbsp; (C) forgets &nbsp; (D) flies</li>
+    </ol>
+  </div>
+</div>
+
+<!-- Page 5 -->
+<div class="page">
+  <div class="pagenum">第 5 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="q-title">四、篇章結構（占8分）</div>
+    <div class="q-desc">
+      說明：第31題至第34題為單選題，每題2分。
+    </div>
+    <div class="q-desc" style="font-size:17px;color:#222;margin-bottom:7px;">
+      第31至34題為題組
+    </div>
+    <div class="passage">
+      Online learning has become increasingly popular in recent years. It allows students to access courses from anywhere and provides flexible schedules. ______ 31 ______
+    </div>
+    <div class="passage">
+      However, studying remotely can also be challenging. Some students find it hard to concentrate at home, and technical problems may interrupt lessons. ______ 32 ______
+    </div>
+    <div class="passage">
+      To overcome these difficulties, students need to develop good time management skills. ______ 33 ______ Many schools now offer resources and support to help students succeed in online learning.
+    </div>
+    <div class="passage">
+      Despite the challenges, online education continues to grow and ______ 34 ______ new opportunities for people around the world.
+    </div>
+    <ol class="q-list" start="31">
+      <li>(A) With proper planning and discipline, online learning can be as effective as traditional classes.</li>
+      <li>(B) This method of education is especially useful for those with busy lives or living in remote areas.</li>
+      <li>(C) These issues can cause frustration and reduce motivation.</li>
+      <li>(D) brings</li>
+    </ol>
+
+    <div class="q-title" style="margin-top:25px;">五、閱讀測驗（占24分）</div>
+    <div class="q-desc">
+      說明：第35題至第46題為單選題，每題2分。
+    </div>
+    <div class="q-desc" style="font-size:17px;color:#222;margin-bottom:7px;">
+      第35至38題為題組
+    </div>
+    <div class="passage">
+      Have you ever wondered how dogs became "man's best friend"? Scientists believe that thousands of years ago, wild wolves began to live near human settlements. Early humans left food scraps behind, and the friendlier wolves stayed close to take advantage of this. Over many generations, these wolves became less aggressive and more comfortable around people.
+    </div>
+  </div>
+</div>
+
+<!-- Page 6 -->
+<div class="page">
+  <div class="pagenum">第 6 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="passage">
+      Eventually, humans realized the benefits of having wolves nearby, such as protection and assistance in hunting. Through careful selection, people began to breed wolves that showed gentle behaviors. This process led to the domestication of dogs.
+    </div>
+    <div class="passage">
+      Today, dogs are valued not only as pets but also as helpers in many fields, including search and rescue, therapy, and law enforcement. New research continues to uncover the fascinating history behind our relationship with these loyal animals.
+    </div>
+    <ol class="q-list" start="35">
+      <li>What is the main purpose of this passage?<br>
+        (A) To explain how dogs were trained to hunt.<br>
+        (B) To describe the process of dog domestication.<br>
+        (C) To show the dangers of wild animals.<br>
+        (D) To discuss modern uses of dogs.</li>
+      <li>According to the passage, why did early wolves stay near humans?<br>
+        (A) They wanted to protect people.<br>
+        (B) They were attracted by food.<br>
+        (C) They were looking for shelter.<br>
+        (D) They needed to learn new skills.</li>
+      <li>What does "domestication" mean in the context of the passage?<br>
+        (A) Feeding wild animals.<br>
+        (B) Keeping animals in zoos.<br>
+        (C) Taming animals for human use.<br>
+        (D) Training animals to hunt.</li>
+      <li>Which of the following is NOT mentioned as a modern role of dogs?<br>
+        (A) Law enforcement<br>
+        (B) Therapy<br>
+        (C) Surgery<br>
+        (D) Search and rescue</li>
+    </ol>
+    <div class="q-desc" style="font-size:17px;color:#222;margin:20px 0 7px 0;">
+      第39至42題為題組
+    </div>
+    <div class="passage">
+      The Eiffel Tower is one of the most famous landmarks in the world. Built in 1889 for the Paris World's Fair, it was originally intended to be a temporary structure. Many Parisians disliked its design at first, calling it an eyesore. However, the tower quickly became a symbol of Paris and is now a popular tourist attraction, drawing millions of visitors each year.
+    </div>
+  </div>
+</div>
+
+<!-- Page 7 -->
+<div class="page">
+  <div class="pagenum">第 7 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="passage">
+      Besides its impressive appearance, the Eiffel Tower has also played an important role in science and technology. It was used for radio transmissions and scientific experiments in the early 20th century. Today, it stands as a reminder of human creativity and innovation.
+    </div>
+    <ol class="q-list" start="39">
+      <li>Why was the Eiffel Tower built?<br>
+        (A) To serve as a radio tower.<br>
+        (B) For a world's fair event.<br>
+        (C) As a permanent monument.<br>
+        (D) To attract tourists.</li>
+      <li>What was the original public opinion about the Eiffel Tower's design?<br>
+        (A) People loved it immediately.<br>
+        (B) It was considered beautiful.<br>
+        (C) It was unpopular at first.<br>
+        (D) It was never criticized.</li>
+      <li>Which of the following is true about the Eiffel Tower?<br>
+        (A) It was always used as a tourist attraction.<br>
+        (B) It played a role in scientific research.<br>
+        (C) Its design has never changed.<br>
+        (D) It was built in the 20th century.</li>
+      <li>What does the tower represent today?<br>
+        (A) Only a place for tourists<br>
+        (B) A symbol of creativity and innovation<br>
+        (C) An example of failed architecture<br>
+        (D) A center for business</li>
+    </ol>
+    <div class="q-desc" style="font-size:17px;color:#222;margin:20px 0 7px 0;">
+      第43至46題為題組
+    </div>
+    <div class="passage">
+      Plastic pollution is a growing problem for our planet. Every year, millions of tons of plastic waste end up in the oceans, harming marine life and damaging ecosystems. Many animals, such as turtles and seabirds, mistake plastic for food and can become sick or die after eating it.
+    </div>
+    <div class="passage">
+      Governments and organizations around the world are working to reduce plastic pollution. Some countries have banned single-use plastics, while others promote recycling and encourage people to use reusable bags and containers.
+    </div>
+  </div>
+</div>
+
+<!-- Page 8 -->
+<div class="page">
+  <div class="pagenum">第 8 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="passage">
+      However, solving this problem requires cooperation from everyone. By making small changes in our daily lives, such as refusing plastic straws and bottles, we can all help protect the environment.
+    </div>
+    <ol class="q-list" start="43">
+      <li>What is the main problem discussed in the passage?<br>
+        (A) Air pollution<br>
+        (B) Plastic waste in the oceans<br>
+        (C) Deforestation<br>
+        (D) Noise pollution</li>
+      <li>According to the passage, how does plastic pollution affect animals?<br>
+        (A) It makes them stronger.<br>
+        (B) It helps them find food.<br>
+        (C) It can make them sick or kill them.<br>
+        (D) It improves their health.</li>
+      <li>What are some solutions mentioned in the passage?<br>
+        (A) Burning all plastic waste<br>
+        (B) Using more single-use plastics<br>
+        (C) Recycling and using reusable items<br>
+        (D) Ignoring the problem</li>
+      <li>What is the main message of the passage?<br>
+        (A) Only governments can solve environmental issues.<br>
+        (B) Everyone can help reduce plastic pollution.<br>
+        (C) Plastic is not harmful to the environment.<br>
+        (D) Marine animals are not affected by plastic.</li>
+    </ol>
+
+    <div class="q-title" style="margin-top:25px;">六、混合題（占10分）</div>
+    <div class="q-desc" style="font-size:17px;color:#222;margin-bottom:7px;">
+      第47至50題為題組
+    </div>
+    <div class="passage">
+      A library is a place where people can borrow books and use resources for free. Nowadays, many libraries offer not just books but also access to computers, study spaces, and community events. Some people believe that libraries are no longer necessary because of the Internet, but others argue that libraries continue to play an important role in society.
+    </div>
+  </div>
+</div>
+
+<!-- Page 9 -->
+<div class="page">
+  <div class="pagenum">第 9 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <div class="forum-post"><strong>A. Alice</strong><br>
+    I think libraries are essential. They provide a quiet place to read and learn, and not everyone can afford to buy books or have Internet at home.</div>
+    
+    <div class="forum-post"><strong>B. Brian</strong><br>
+    With so much information online, aren't libraries a thing of the past? I rarely visit one anymore.</div>
+    
+    <div class="forum-post"><strong>C. Cindy</strong><br>
+    I love how libraries host workshops and activities for all ages. It helps bring people in the community together.</div>
+    
+    <div class="forum-post"><strong>D. David</strong><br>
+    Libraries are important for children, especially those who need help with homework or don't have a good study environment at home.</div>
+    
+    <div class="forum-post"><strong>E. Emily</strong><br>
+    Sometimes, I just enjoy walking through the library and discovering new books by chance.</div>
+    
+    <div class="forum-post"><strong>F. Frank</strong><br>
+    Libraries should adapt to modern times by offering more digital resources and online services.</div>
+    
+    <div class="forum-post"><strong>G. Grace</strong><br>
+    The staff at my local library are always friendly and willing to help me find what I need.</div>
+    
+    <div class="forum-post"><strong>H. Henry</strong><br>
+    Many libraries now have online catalogs, making it easier to search for and reserve books.</div>
+    
+    <div class="forum-post"><strong>I. Irene</strong><br>
+    Libraries inspire a love of reading in young people.</div>
+    
+    <div class="forum-post"><strong>J. Jack</strong><br>
+    I think libraries are outdated and we should invest more in new technologies instead.</div>
+
+    <div style="margin-top:20px;">
+      <div class="q-desc">47-48 請根據選文內容，從文章中選出兩個單詞，分別填入下列句子空格，並視句型結構需要作適當的字形變化，使句子語意完整、語法正確，且符合全文文意。每格限填一個單詞（word）。</div>
+      
+      <div style="margin:12px 0;font-size:16px;">
+        Modern libraries provide free access to ______ 47 ______ for everyone. Some people, however, think libraries are ______ 48 ______ because of the Internet.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page 10 -->
+<div class="page">
+  <div class="pagenum">第 10 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area">
+    <ol class="q-list" start="49">
+      <li>From (A) to (J) in the above forum discussion, which ONES show a positive attitude toward libraries?（多選題，4分）</li>
+      <li>Which phrase in the forum discussion means "to develop a passion for reading"?（簡答題，2分）</li>
+    </ol>
+
+    <div class="section-title" style="margin-top:40px;">第貳部分、非選擇題（占38分）</div>
+    
+    <div class="q-title">一、中譯英（占8分）</div>
+    <div class="q-desc">
+      說明：依題號將以下中文句子譯成正確、通順、達意的英文。每題4分，共8分。
+    </div>
+    
+    <div style="margin:15px 0;font-size:17px;line-height:2;">
+      1. 人類的好奇心和學習能力是推動科學發展的關鍵。
+    </div>
+    
+    <div style="margin:15px 0;font-size:17px;line-height:2;">
+      2. 隨著科技進步，許多過去認為不可能的事情如今已經實現。
+    </div>
+
+    <div class="q-title" style="margin-top:30px;">二、英文作文（占20分）</div>
+    <div class="q-desc">
+      說明︰依提示寫一篇英文作文，文長至少120個單詞（words）。
+    </div>
+    
+    <div class="writing-section">
+      <strong>提示：</strong>隨著智慧型手機的普及，越來越多年輕人花大量時間在社交媒體上。請針對這個現象寫一篇英文作文，文分兩段。第一段描述你觀察到的現象與其影響；第二段說明你對於年輕人使用社群媒體的看法與建議。
+    </div>
+  </div>
+</div>
+
+<!-- Page 11 -->
+<div class="page">
+  <div class="pagenum">第 11 頁<br>共 11 頁</div>
+  <div class="subinfo">
+    114年學測<br>英文考科
+  </div>
+  <div class="content-area" style="display:flex;align-items:center;justify-content:center;height:80%;">
+    <div style="text-align:center;font-size:24px;color:#666;">
+      試題結束
+    </div>
+  </div>
+</div>
+
+<div class="kuse-branding" onclick="window.open('https://kuse.ai', '_blank');">
+  made with 
+  <svg viewBox="0,0,160,44" xmlns="http://www.w3.org/2000/svg">
+    <path d="m.01,20.65C-.43,8.25,9.3-2.03,22.04.34,34.78,2.72,43.29,8.32,43.29,22.9s-8.66,19.01-22.03,20.3C7.9,44.5.46,33.05.01,20.65z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="m146.76,7.94c8.07,0,13.24,6.15,13.24,14.58v1.39h-20.75c.45,4.05,3.51,7.37,8.57,7.37,2.62,0,5.73-1.05,7.62-2.94l2.67,3.83c-2.67,2.55-6.62,3.88-10.9,3.88-8.07,0-14.08-5.6-14.08-14.08,0-7.76,5.67-14.02,13.63-14.02zm0,4.77c-5.01,0-7.29,3.83-7.57,7.1h15.13c-.11-3.16-2.28-7.1-7.57-7.1z" fill="currentColor"/>
+    <path d="m86.64,24.49c0,4.15,2.39,6.84,6.84,6.84,4.4,0,6.84-2.69,6.84-6.84V8.55h5.37v16.33c0,6.7-4.06,11.14-12.21,11.14-8.21,0-12.21-4.5-12.21-11.09V8.55h5.37v15.94zm32.99-16.55c4.49,0,8.06,1.47,10.6,3.86l-2.59,3.81c-2.05-2-5.28-3.08-8.06-3.08-2.88,0-4.84,1.37-4.84,3.32,0,1.91,2.64,2.54,5.81,3.27,4.59,1.08,10.26,2.4,10.26,8.46,0,4.94-3.76,8.41-11.14,8.41-4.98,0-8.94-1.76-11.24-4.11l2.54-4.11c1.86,1.91,5.18,3.67,8.84,3.67,3.91,0,5.57-1.66,5.57-3.62,0-2.3-2.88-2.98-6.21-3.76-4.54-1.08-9.87-2.3-9.87-8.06,0-4.5,4.2-8.06,10.31-8.06zM60.79,20.82,71.44,8.55h6.5L66.46,21.26,78.82,35.44h-6.5l-9.28-11.1-2.25,2.49v8.6h-5.33V8.55h5.33v12.27z" fill="currentColor"/>
+  </svg>
+</div>
+
+<script src="https://cdn.kuse.ai/sdk.prd.js"></script>
+</body>
+</html>
